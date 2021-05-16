@@ -1,0 +1,47 @@
+header,
+footer {
+  background-color: #69d2e7;
+  text-align: center;
+}
+
+header {
+  background-color: #fa6900;
+}
+
+header,
+footer,
+main {
+  padding: 50px;
+}
+
+nav {
+  background-color: #69d2e7;
+}
+
+a {
+  color: #fa6900;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+  padding: 10px 0 10px;
+  font-size: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  flex-direction: row;
+  margin: 0 20px 0 20px;
+}
+
+main {
+  background-color: #a7dbd8;
+}
+
+article {
+  background-color: #e0e4cc;
+  padding: 10px;
+}
