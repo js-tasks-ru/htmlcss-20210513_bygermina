@@ -1,1 +1,82 @@
 /* Стилизация кнопки */
+.button {
+  width: 189px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+
+  font-size: 16px;
+}
+
+.buttons-list__button {
+  margin-left: 33px;
+  margin-top: 16px;
+}
+
+/*модификаторы*/
+.button_primary {
+  background-color: #4263eb;
+}
+
+.button_primaryhover {
+  background-color: #2342c0;
+}
+
+.button_secondary {
+  background-color: #7048e8;
+}
+
+.button_secondaryhover {
+  background-color: #5028c6;
+}
+
+.button_alternate {
+  background-color: #ffffff;
+  border: 1px solid #acb5bd;
+  color: #495057;
+}
+
+.button_alternatehover {
+  background-color: #ffffff;
+  border: 1px solid #212429;
+  color: #495057;
+}
+
+.button_disabled {
+  opacity: 50%;
+}
+
+h5 {
+  color: #acb5bd;
+
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* карточка с кнопками */
+.card {
+  width: 1440px;
+  height: 451px;
+  display: flex;
+}
+
+.card__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  margin: 150px 163px 255px;
+}
+
+.card__title-buttons {
+  margin: 113px 0px 145px 77px;
+}
+.card__buttons {
+  margin-top: 123px;
+}
+
+.title-list {
+  margin-top: 48px;
+}

@@ -2,10 +2,35 @@
 <!-- Страница с кнопкой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
     </head>
     <body>
-
+        <div class="card">
+            <h2 class="card__title">Buttons</h2>
+            <div class="card__title-buttons">
+                <h5 class="title-list">Default</h5>
+                <h5 class="title-list">Hover</h5>
+                <h5 class="title-list">Disabled</h5>
+            </div>
+            <div class="card__buttons">
+                <div class="buttons-list">
+                    <button type="button" class="button button_primary buttons-list__button">Primary</button>
+                    <button type="button" class="button button_secondary buttons-list__button">Secondary</button>
+                    <button type="button" class="button button_alternate buttons-list__button">Alternate</button>
+                </div>
+                <div class="buttons-list">
+                    <button type="button" class="button button_primaryhover buttons-list__button">Primary</button>
+                    <button type="button" class="button button_secondaryhover buttons-list__button">Secondary</button>
+                    <button type="button" class="button button_alternatehover buttons-list__button">Alternate</button>
+                </div>
+                <div class="buttons-list">
+                    <button type="button" class="button button_primary button_disabled buttons-list__button">Primary</button>
+                    <button type="button" class="button button_secondary button_disabled buttons-list__button">Secondary</button>
+                    <button type="button" class="button button_alternate button_disabled buttons-list__button">Alternate</button>
+                </div>
+            </div>
+    </div>
     </body>
 </html>
