@@ -5,18 +5,11 @@
   border-radius: 8px;
   border: none;
   color: var(--white);
-
-  font-size: 16px;
-}
-
-.buttons-list__button {
-  margin-left: 33px;
-  margin-top: 16px;
 }
 
 /*модификаторы*/
 .button_primary {
-  background-color: #4263eb;
+  background-color: var(--blue);
 }
 
 .button_primaryhover {
@@ -45,38 +38,4 @@
 
 .button_disabled {
   opacity: 50%;
-}
-
-h5 {
-  color: var(--grey-3);
-
-  text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-}
-
-/* карточка с кнопками */
-.card {
-  width: 1440px;
-  height: 451px;
-  display: flex;
-}
-
-.card__title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 38px;
-  margin: 150px 163px 255px;
-}
-
-.card__title-buttons {
-  margin: 113px 0px 145px 77px;
-}
-.card__buttons {
-  margin-top: 123px;
-}
-
-.title-list {
-  margin-top: 48px;
 }
