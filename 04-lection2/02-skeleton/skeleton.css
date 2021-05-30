@@ -1,0 +1,43 @@
+.skeleton {
+  border: 1px solid var(--grey-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 24px 40px 32px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton__foto {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--grey-2);
+  float: left;
+  margin: 0 16px 16px 0;
+}
+
+.skeleton__content {
+  width: 515px;
+  height: 20px;
+  margin-top: 8px;
+  background: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+}
+
+.skeleton-float {
+  margin-left: 80px;
+}
+
+.skeleton-title1 {
+  width: 172px;
+}
+
+.skeleton-title2 {
+  width: 257px;
+}
