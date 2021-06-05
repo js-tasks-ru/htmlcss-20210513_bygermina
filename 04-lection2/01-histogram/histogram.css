@@ -5,10 +5,12 @@
 
   border: 1px solid var(--grey-3);
   box-sizing: border-box;
+  width: 100%;
   border-radius: 8px;
   padding: 16px 24px 24px;
   display: flex;
   flex-direction: column;
+  margin-top: 56px;
 }
 
 .histogram__counter {
@@ -32,7 +34,7 @@
 }
 
 .histogram__content-column {
-  width: 9px;
+  width: 100%;
   height: 100%;
   align-self: flex-end;
   margin: 0.5px;
