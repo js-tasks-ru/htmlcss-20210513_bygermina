@@ -5,6 +5,7 @@
   border-radius: 8px;
   border: none;
   color: var(--white);
+  cursor: pointer;
 }
 
 /*модификаторы*/
@@ -12,7 +13,7 @@
   background-color: var(--blue);
 }
 
-.button_primaryhover {
+.button:hover {
   background-color: #2342c0;
 }
 
@@ -20,7 +21,7 @@
   background-color: var(--purple);
 }
 
-.button_secondaryhover {
+.button_secondary:hover {
   background-color: #5028c6;
 }
 
@@ -30,7 +31,7 @@
   color: var(--grey-4);
 }
 
-.button_alternatehover {
+.button_alternate:hover {
   background-color: var(--white);
   border: 1px solid var(--black);
   color: var(--grey-4);
