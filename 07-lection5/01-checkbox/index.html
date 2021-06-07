@@ -4,8 +4,64 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
     </head>
     <body>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg
+                        class="checkbox__icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <use xlink:href="../../sprites.svg#check-icon"></use>
+                    </svg>
+                </div>
+                <div class="checkbox__legend">
+                    Default
+                </div>
+            </div>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg
+                        class="checkbox__icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <use xlink:href="../../sprites.svg#check-icon"></use>
+                    </svg>
+                </div>
+                <div class="checkbox__legend">
+                    Default
+                </div>
+            </div>
+        </label>
+        <label class="checkbox disabled">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control disabled__check">
+                    <svg
+                        class="checkbox__icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <use xlink:href="../../sprites.svg#check-icon"></use>
+                    </svg>
+                </div>
+                <div class="checkbox__legend disabled__label">
+                    Default
+                </div>
+            </div>
+        </label>
 
     </body>
 </html>
