@@ -29,7 +29,6 @@
   right: 0;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 48px repeat(5, 1fr);
 }
 
 .calendar__item {
@@ -42,6 +41,8 @@
 
 .calendar__item_day {
   color: #90a0b7;
+  padding: 5px 0;
+  font-size: 14px;
 }
 
 .calendar__item_active {
