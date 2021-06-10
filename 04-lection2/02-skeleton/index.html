@@ -4,8 +4,39 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./skeleton.css">
+        <style>
+            .card {
+                display: flex;
+            }
+
+            .card__title {
+                font-family: 'Inter', sans-serif;
+                font-weight: 500;
+                font-size: 38px;
+                margin: 0px 184px 0px 165px;
+            }
+
+            .card__skeleton {
+                margin-top: 75px;
+            }
+        </style>
+
     </head>
     <body>
+        <div class="card card__skeleton">
+            <h2 class="card__title">Skeleton</h2>
+            <div class="skeleton">
+                <div>
+                    <div class="skeleton__foto"></div>
+                    <div class="skeleton__content skeleton-float skeleton-title1"></div>
+                    <div class="skeleton__content skeleton-float skeleton-title2"></div>
 
+                </div>
+                <div>
+                    <div class="skeleton__content"></div>
+                    <div class="skeleton__content"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
