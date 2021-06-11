@@ -39,36 +39,3 @@
   line-height: 18px;
   grid-area: footer;
 }
-
-.menu {
-  font-family: 'Inter', sans-serif;
-}
-
-.menu__headline {
-  margin-bottom: 14px;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.menu__content {
-  padding: 0;
-  font-size: 14px;
-  line-height: 22px;
-  list-style-type: none;
-  margin-bottom: 32px;
-}
-
-.menu__item {
-  margin: 4px 0;
-}
-
-.menu__item_active,
-.menu__item:hover {
-  color: #d84910;
-}
-
-.component {
-  background: var(--white);
-  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-  border-radius: 12px;
-}
