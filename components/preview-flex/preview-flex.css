@@ -6,14 +6,47 @@
 .preview-flex__card {
   width: calc(33% - 30px);
   margin: 15px;
+  padding: 24px;
+  box-sizing: border-box;
   height: 367px;
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
   border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .preview-flex__container {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 21px;
+  margin: 75px 0 6px;
+}
+
+@media screen and (max-width: 950px) {
+  .preview-flex__card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card__title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .preview-flex__card {
+    padding: 0;
+  }
 }

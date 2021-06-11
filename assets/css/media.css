@@ -1,0 +1,31 @@
+@media screen and (max-width: 1160px) {
+  .page__box {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .page__box {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .page__box {
+    max-width: 500px;
+  }
+
+  .footer__text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .page__box {
+    max-width: 300px;
+  }
+
+  .nav {
+    display: none;
+  }
+}

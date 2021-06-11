@@ -4,8 +4,28 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./tooltip.css">
+        <style>
+            body {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="tooltip">
+            <svg
+                id="tooltip-icon" 
+                class="tooltip__trigger"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <use xlink:href="../../sprites.svg#tooltip-icon"></use>
+            </svg>
+            <div class="tooltip__help">
+                Helper Text
+            </div>
+        </div>
     </body>
 </html>
