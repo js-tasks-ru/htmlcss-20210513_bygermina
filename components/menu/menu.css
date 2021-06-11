@@ -1,0 +1,26 @@
+.menu {
+  font-family: 'Inter', sans-serif;
+}
+
+.menu__headline {
+  margin-bottom: 14px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.menu__content {
+  padding: 0;
+  font-size: 14px;
+  line-height: 22px;
+  list-style-type: none;
+  margin-bottom: 32px;
+}
+
+.menu__item {
+  margin: 4px 0;
+}
+
+.menu__item_active,
+.menu__item:hover {
+  color: #d84910;
+}
