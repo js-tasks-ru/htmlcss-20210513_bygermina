@@ -1,7 +1,7 @@
 /* Стилизация аккордеона */
-/* .accordion__summary::-webkit-details-marker {
+.accordion__summary::-webkit-details-marker {
   display: none;
-} */
+}
 
 .accordion__marker {
   width: 18px;
