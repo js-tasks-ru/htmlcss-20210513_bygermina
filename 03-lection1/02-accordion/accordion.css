@@ -1,6 +1,10 @@
 /* Стилизация аккордеона */
-.accordion__summary::-webkit-details-marker {
+details summary::-webkit-details-marker {
   display: none;
+}
+
+details > summary {
+  list-style: none;
 }
 
 .accordion__marker {
@@ -26,11 +30,17 @@ details[open] .accordion__marker {
 
 .accordion__summary {
   color: var(--black);
-  display: flex;
+  position: relative;
 }
 
 .accordion__label{
   margin: 0;
+}
+
+.accordion__marker{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .accordion__open {
