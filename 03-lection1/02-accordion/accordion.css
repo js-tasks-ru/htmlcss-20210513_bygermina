@@ -1,12 +1,4 @@
 /* Стилизация аккордеона */
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-details > summary {
-  list-style: none;
-}
-
 .accordion__marker {
   width: 18px;
   height: 10px;
