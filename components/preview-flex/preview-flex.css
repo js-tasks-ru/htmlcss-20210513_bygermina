@@ -31,3 +31,22 @@
   font-size: 21px;
   margin: 75px 0 6px;
 }
+
+@media screen and (max-width: 950px) {
+  .preview-flex__card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card__title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .preview-flex__card {
+    padding: 0;
+  }
+}

@@ -350,3 +350,15 @@ template {
 [hidden] {
   display: none;
 }
+
+/**
+ * Delete default marker for akkordions
+ */
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}

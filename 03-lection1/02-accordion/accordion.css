@@ -1,12 +1,7 @@
 /* Стилизация аккордеона */
-/* .accordion__summary::-webkit-details-marker {
-  display: none;
-} */
-
 .accordion__marker {
   width: 18px;
   height: 10px;
-  float: right;
   color: var(--black);
 }
 
@@ -27,7 +22,17 @@ details[open] .accordion__marker {
 
 .accordion__summary {
   color: var(--black);
-  display: block;
+  position: relative;
+}
+
+.accordion__label{
+  margin: 0;
+}
+
+.accordion__marker{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .accordion__open {
