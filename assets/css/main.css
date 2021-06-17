@@ -17,6 +17,9 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
+
+  --avatarMiddle: 102px;
+  --avatarSmall: 64px;
 }
 
 * {
