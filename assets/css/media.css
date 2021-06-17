@@ -14,18 +14,10 @@
   .page__box {
     max-width: 500px;
   }
-
-  .footer__text {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 550px) {
   .page__box {
     max-width: 300px;
-  }
-
-  .nav {
-    display: none;
   }
 }
