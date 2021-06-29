@@ -4,8 +4,48 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    
     </head>
     <body>
+        <label class="radio">
+            <input type="radio" name="radioButton" class="radio__input">
+            <div class="radio__state">
+                <div class="radio__control">
+                </div>
+                <div class="radio__legend">
+                    Default
+                </div>
+            </div>
+        </label>
+        <label class="radio">
+            <input type="radio" name="radioButton" class="radio__input">
+            <div class="radio__state">
+                <div class="radio__control">
+                </div>
+                <div class="radio__legend">
+                    Default
+                </div>
+            </div>
+        </label>
+        <label class="radio disabled">
+            <input type="radio" class="radio__input">
+            <div class="radio__state">
+                <div class="radio__control disabled__check">
+                </div>
+                <div class="radio__legend disabled__label">
+                    Default
+                </div>
+            </div>
+        </label>
+    
 
     </body>
 </html>
